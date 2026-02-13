@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Jayakumar V.</title>
+    <meta name="description" content="Featured projects and case studies.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Jayakumar<span>.V</span></a>
+
+            <div class="mobile-toggle" id="mobile-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <nav class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="skills.html" class="nav-link">Skills</a>
+                <a href="projects.html" class="nav-link active">Projects</a>
+                <a href="experience.html" class="nav-link">Experience</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main style="padding-top: var(--header-height);">
+        <header class="page-header">
+            <div class="container">
+                <h1 class="page-title">Featured Projects</h1>
+                <p class="page-subtitle">A selection of my work in full-stack development and AI integration.</p>
+            </div>
+        </header>
+
+        <section class="section">
+            <div class="container projects-grid">
+
+                <!-- Project 1: AI Exam Companion -->
+                <article class="project-card">
+                    <div class="project-image"
+                        style="background: linear-gradient(135deg, #0f172a, #1e293b); display: flex; align-items: center; justify-content: center;">
+                        <i class="fa-solid fa-robot" style="font-size: 3rem; color: #2563EB;"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Exam Companion</h3>
+                        <p style="color: var(--text-muted); margin-bottom: 16px;">An intelligent exam preparation
+                            assistant leveraging AI to help students study smarter and more efficiently.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Firebase</span>
+                            <span class="project-tag">Node.js API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="project-ai-exam.html" class="btn btn-secondary"
+                                style="padding: 8px 16px; font-size: 0.9rem;">View Case Study</a>
+                            <a href="https://aiexamcompanion.web.app/" target="_blank" class="btn btn-primary"
+                                style="padding: 8px 16px; font-size: 0.9rem;"><i
+                                    class="fa-solid fa-arrow-up-right-from-square" style="margin-right: 6px;"></i> Live
+                                Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Jayakumar V. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
